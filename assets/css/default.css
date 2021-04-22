@@ -1,0 +1,32 @@
+*{box-sizing: border-box;}
+@font-face {
+  font-family: Clairvaux;
+  src: ./assets/Clairvaux-Roman.ttf;
+}
+
+p {
+  color: grey;
+   font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 10%;
+  padding: 0%;
+}
+
+img {
+float: left;
+height: 20%;
+}
+
+body{
+  margin:0;
+  padding: 0;
+  background-color: black;
+  color: gray;
+  font-family: Clairvaux;
+  font-size: 20px;
+  padding: 0%;
+}
+.zoom{
+  padding: 10px;
+}
+.zoom:hover {
+  transform: scale(3);
